@@ -176,6 +176,9 @@ En este método crearemos las reglas que serán utilizadas posteriormente por el
 ```
 
 
+## 5. Ejecución del controlador
+
+> Hemos generado el ejecutable a partir del código implementado, por lo que se podrá ejecutar directamente con el archivo smartJet.exe.
 
 
 
