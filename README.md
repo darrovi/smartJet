@@ -20,10 +20,14 @@ La primera se centra en estudiar los principios básicos de vuelo, identificando
 
 En la segunda fase se desarrolla el código en C# utilizando ténicas de lógica difusa.
 
+<br/>
+
 
 ## 2. Objetivo
 
 El objetivo de este trabajo es lograr el control automático de la estabilidad de un avión durante su vuelo acercándonos a un situación lo más real posible, es decir, teniendo en cuenta el baremo del que se rige una aeronave en un vuelo real.
+
+<br/>
 
 ## 3. Estudio previo
 
@@ -44,6 +48,8 @@ En la parte de desarrollo en un entorno 3D, el eje longitudinal, el lateral y el
 
 ![alt text](http://2.bp.blogspot.com/-_d_Y51vcJnU/UIxBT81gbzI/AAAAAAAAB7Q/Jf5B9nV_bEU/s1600/EjesMovimiento.png "Ejes")
 
+<br/>
+
 ## 4. Funcionamiento de la práctica
 
 A continuación se explica el funcionamiento al momento de ejecutar el programa.
@@ -58,7 +64,9 @@ A continuación se explica el funcionamiento al momento de ejecutar el programa.
     Las teclas direccionales izquierda y derecha afectan al eje longitudinal, es decir, manipula el alabeo. En el código, a esta variable se le identifica por su término en inglés: roll.
 Las teclas direccionales arriba y abajo afectan al eje lateral, es decir, manipula el cabeceo. En el código, a esta variable se le identifica por su término en inglés: pitch.
  	
-## 4. Lógica y código del controlador
+<br/>
+
+## 5. Lógica y código del controlador
 
 ### Variables de control
 ```c#
