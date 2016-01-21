@@ -120,22 +120,6 @@ private void KnowledgeBase()
 
 
 
-### DeFuzzify()
-En este método crearemos las reglas que serán utilizadas posteriormente por el controlador.
-
-```c#
-        private void DeFuzzify()
-        {
-            float exit;
-            if (PitchInput == 0f && RollInput == 0f)
-            {
-                exit = Fuzzify();
-                PitchInput = -PitchAngle * exit;
-                RollInput = -RollAngle * exit;
-            }
-        }
-
-```
 ### Fuzzify()
 En este método se aplicarán las reglas definidas anteriormente para poder controlar la estabilidad del avión.
 
@@ -172,6 +156,25 @@ En este método se aplicarán las reglas definidas anteriormente para poder cont
 
         }
 ```
+
+
+### DeFuzzify()
+En este método crearemos las reglas que serán utilizadas posteriormente por el controlador.
+
+```c#
+        private void DeFuzzify()
+        {
+            float exit;
+            if (PitchInput == 0f && RollInput == 0f)
+            {
+                exit = Fuzzify();
+                PitchInput = -PitchAngle * exit;
+                RollInput = -RollAngle * exit;
+            }
+        }
+
+```
+
 
 
 
